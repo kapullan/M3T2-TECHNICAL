@@ -1,0 +1,43 @@
+:root 
+    {
+        --main-blue: #0055ff; 
+        --dark-text: #222222;
+        --light-bg: #f5f5f5;
+        --focus-orange: #ff6600;
+
+        --space-small: 8px; 
+        --space-medium: 16px;
+        --space-large: 24px; 
+
+        --text-small: 14px; 
+        --text-normal: 18px; 
+        --text-large: 32px; 
+    }
+
+            .card 
+            {
+                background-color: white;
+                border: 1px solid #cccccc;
+                padding: var(--space-medium);
+                margin-bottom: var(--space-medium);
+            }
+
+        .button 
+            {
+                background-color: var(--main-blue);
+                color: white;
+                padding: var(--space-small) var(--space-medium);
+                border: none;
+                cursor: pointer;
+                font-size: var(--text-small);
+            }
+
+            .nav-menu a:hover 
+            {
+                background-color: #ffae00;
+            }
+
+            .nav-menu a:focus 
+            {
+                outline: 3px solid var(--focus-blue);
+            }
